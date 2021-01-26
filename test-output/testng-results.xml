@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11839" started-at="2021-01-26T20:58:46Z" finished-at="2021-01-26T20:58:58Z">
+    <groups>
+    </groups>
+    <test name="verifyAppTitle" duration-ms="10382" started-at="2021-01-26T20:58:46Z" finished-at="2021-01-26T20:58:56Z">
+      <class name="com.OrangeHrm.testCase.verifyAppTitle">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHrm.testCase.verifyAppTitle@1ee81fc]" name="setup" is-config="true" duration-ms="5860" started-at="2021-01-26T20:58:46Z" finished-at="2021-01-26T20:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:0, instance:com.OrangeHrm.testCase.verifyAppTitle@1ee81fc]" name="verifyApplicationTitle" duration-ms="3561" started-at="2021-01-26T20:58:52Z" finished-at="2021-01-26T20:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrm.testCase.verifyAppTitle@1ee81fc]" name="tearDown" is-config="true" duration-ms="702" started-at="2021-01-26T20:58:56Z" finished-at="2021-01-26T20:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHrm.testCase.verifyAppTitle -->
+    </test> <!-- verifyAppTitle -->
+    <test name="TC001_LoginTest" duration-ms="11839" started-at="2021-01-26T20:58:46Z" finished-at="2021-01-26T20:58:58Z">
+      <class name="com.OrangeHrm.testCase.TC001_LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHrm.testCase.TC001_LoginTest@289886]" name="setup" is-config="true" duration-ms="5862" started-at="2021-01-26T20:58:46Z" finished-at="2021-01-26T20:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.OrangeHrm.testCase.TC001_LoginTest@289886]" name="loginTest" duration-ms="5104" started-at="2021-01-26T20:58:52Z" finished-at="2021-01-26T20:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.OrangeHrm.testCase.TC001_LoginTest@289886]" name="tearDown" is-config="true" duration-ms="660" started-at="2021-01-26T20:58:57Z" finished-at="2021-01-26T20:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHrm.testCase.TC001_LoginTest -->
+    </test> <!-- TC001_LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

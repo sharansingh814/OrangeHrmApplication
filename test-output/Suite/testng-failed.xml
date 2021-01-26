@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.OrangeHrm.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="verifyAppTitle(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.OrangeHrm.testCase.TC_003_Login_DDT_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.OrangeHrm.testCase.TC_003_Login_DDT_Test -->
+    </classes>
+  </test> <!-- verifyAppTitle(failed) -->
+</suite> <!-- Failed suite [Suite] -->

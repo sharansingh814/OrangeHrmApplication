@@ -1,0 +1,6 @@
+[INFO ] 26-01-2021 04:19:50.312 TC001_LoginTest - *******************Launching the Application*************************
+[INFO ] 26-01-2021 04:19:50.312 verifyAppTitle - ***************Launching URL*************************
+[INFO ] 26-01-2021 04:19:52.155 TC001_LoginTest - *******************Opened Application*************************
+[INFO ] 26-01-2021 04:19:52.697 verifyAppTitle - **************Application opened*********************
+[INFO ] 26-01-2021 04:19:52.714 verifyAppTitle - ****************URL is correct********************
+[INFO ] 26-01-2021 04:19:53.432 TC001_LoginTest - **********************Login is successful***********************

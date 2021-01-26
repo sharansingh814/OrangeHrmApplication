@@ -1,0 +1,7 @@
+com\OrangeHrm\utilities\ExtentReportManager.class
+com\OrangeHrm\testCase\verifyAppTitle.class
+com\OrangeHrm\testCase\TC001_LoginTest.class
+com\OrangeHrm\testBase\BaseClass.class
+com\OrangeHrm\testCase\TC_003_Login_DDT_Test.class
+com\OrangeHrm\utilities\excelUtil.class
+com\OrangeHrm\pageObjects\LoginPage.class
